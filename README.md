@@ -21,24 +21,21 @@ pip3 install numpy pandas matplotlib scipy sklearn
 1. Data Filtering & Visualization of Frequency Distribution
 ```
 python3 data_filter_fft.py
-```
-2. 
-```
 python3 valid_start_end.py
 ```
-3. Data Visualization
+3. Gait Cycle Detection: slice walk cycles from the data sequences
 ```
 python3 cycle_detection.py
 ```
-4. Visualization for Accuracy VS Number of Estimators
+4. Interpolation: make walk cycles consistent in length
 ```
 python3 interpolation.py
 ```
-5. Error Case Visualization
+5. Cycle Filtering: filter out noisy cycles
 ```
 python3 cycle_filter.py
 ```
-6. Error Case Visualization
+6. Classification: DNN (Multi Layer Perceptron), CNN, and RNN (LSTM)
 ```
 python3 DNN_classification.py
 ```
