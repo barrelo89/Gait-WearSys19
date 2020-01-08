@@ -5,8 +5,9 @@ This is python code for the paper work published in WearSys '19: The 5th ACM Wor
 
 ## Prerequisities
 - Language: Python
-- Required Packages: numpy, pandas, matplotlib, scipy, sklearn
+- Required Packages: numpy, pandas, matplotlib, scipy, sklearn, tensorflow
 - To install the required package, type the following command:
+*. To install Tensorflow, visit the official Tensorflow Webpage [link](https://www.tensorflow.org/install)
 1) Python 2
 ```
 pip install numpy pandas matplotlib scipy sklearn
@@ -17,23 +18,27 @@ pip3 install numpy pandas matplotlib scipy sklearn
 ```
 
 ## Running the code
-1. Data Preprocessing: change the raw csv file names according to each volunteer's name and categorize them into activities
+1. Data Filtering & Visualization of Frequency Distribution
 ```
-python3 data_preocessing.py
+python3 data_filter_fft.py
 ```
-2. Data Filtering & Feature Extraction & Classification
+2. 
 ```
-python3 classfication.py
+python3 valid_start_end.py
 ```
 3. Data Visualization
 ```
-python3 data_visualize.py
+python3 cycle_detection.py
 ```
 4. Visualization for Accuracy VS Number of Estimators
 ```
-python3 accuracy_num_estimator_visualization.py
+python3 interpolation.py
 ```
 5. Error Case Visualization
 ```
-python3 error_case_visualization.py
+python3 cycle_filter.py
+```
+6. Error Case Visualization
+```
+python3 DNN_classification.py
 ```
