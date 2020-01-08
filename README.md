@@ -45,6 +45,8 @@ python3 cycle_filter.py
 
 5. Classification: DNN (Multi Layer Perceptron), CNN, and RNN (LSTM)
 ```
-python3 DNN_classification.py
+python3 DNN.py
+python3 CNN.py
+python3 RNN.py
 ```
 ![Authentication](figure/authentication.png)
