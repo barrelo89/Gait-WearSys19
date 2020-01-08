@@ -23,19 +23,28 @@ pip3 install numpy pandas matplotlib scipy sklearn
 python3 data_filter_fft.py
 python3 valid_start_end.py
 ```
-3. Gait Cycle Detection: slice walk cycles from the data sequences
+![Data Filter](figure/cycle_distribution.png)
+
+2. Gait Cycle Detection: slice walk cycles from the data sequences
 ```
 python3 cycle_detection.py
 ```
-4. Interpolation: make walk cycles consistent in length
+![Interpolation](figure/cycle_length.png)
+
+3. Interpolation: make walk cycles consistent in length
 ```
 python3 interpolation.py
 ```
-5. Cycle Filtering: filter out noisy cycles
+![Interpolation](figure/interpolation.png)
+
+4. Cycle Filtering: filter out noisy cycles
 ```
 python3 cycle_filter.py
 ```
-6. Classification: DNN (Multi Layer Perceptron), CNN, and RNN (LSTM)
+![Cycle Filter](figure/cycle_filter.png)
+
+5. Classification: DNN (Multi Layer Perceptron), CNN, and RNN (LSTM)
 ```
 python3 DNN_classification.py
 ```
+![Authentication](figure/authentication.png)
