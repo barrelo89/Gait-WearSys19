@@ -6,9 +6,8 @@ This is python code for the paper work published in WearSys '19: The 5th ACM Wor
 ## Prerequisities
 - Language: Python
 - Required Packages: numpy, pandas, matplotlib, scipy, sklearn, tensorflow
-- To install the required package, type the following command:
+- To install the required package, type the following command (To install Tensorflow, visit the official Tensorflow Webpage [link](https://www.tensorflow.org/install)):
 
-*. To install Tensorflow, visit the official Tensorflow Webpage [link](https://www.tensorflow.org/install)
 1) Python 2
 ```
 pip install numpy pandas matplotlib scipy sklearn
